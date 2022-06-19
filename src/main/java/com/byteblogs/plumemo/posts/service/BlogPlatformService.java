@@ -12,7 +12,7 @@ public interface BlogPlatformService {
 
     String URL = "jdbc:mysql://%s:%s/%s?useSSL=false&characterEncoding=utf8";
 
-    String MYSQL_DRIVER = "com.mysql.jdbc.Driver";
+    String MYSQL_DRIVER = "Mapper.mysql.jdbc.Driver";
 
     /**
      * 获取url

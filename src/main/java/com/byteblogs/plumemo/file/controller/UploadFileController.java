@@ -26,5 +26,4 @@ public class UploadFileController {
         final String store = UploadFileFactory.getUploadFileService().saveFileStore(file);
         return Result.createWithSuccessMessage().setExtra(store);
     }
-
 }

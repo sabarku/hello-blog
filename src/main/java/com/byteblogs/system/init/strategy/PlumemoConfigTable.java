@@ -44,7 +44,7 @@ public class PlumemoConfigTable implements TableInfoService {
 
     private static String initData() {
         return "INSERT INTO `plumemo_config` VALUES " +
-                "(1, 'name', 'plumemo', 0)," +
+                "(1, 'name', 'Mapper', 0)," +
                 "(2, 'domain', 'http://127.0.0.1', 0)," +
                 "(3, 'keywords', 'java', 0)," +
                 "(4, 'description', 'java', 0)," +
@@ -70,7 +70,7 @@ public class PlumemoConfigTable implements TableInfoService {
                 "(25, 'cos_image_domain', '', 5)," +
                 "(26, 'cos_path', '', 5)," +
                 "(27, 'default_path', '', 6)," +
-                "(28, 'default_image_domain', 'http://127.0.0.1:8086/api/plumemo-service/', 6)" +
+                "(28, 'default_image_domain', 'http://127.0.0.1:8086/api/Mapper-service/', 6)" +
                 ";";
     }
 }

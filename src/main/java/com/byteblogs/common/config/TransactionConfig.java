@@ -28,7 +28,7 @@ public class TransactionConfig {
     @Bean
     public Advisor txAdviceAdvisor() {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("execution(* com.byteblogs.plumemo.*.service.impl.*.*(..))");
+        pointcut.setExpression("execution(* Mapper.byteblogs.Mapper.*.service.impl.*.*(..))");
         return new DefaultPointcutAdvisor(pointcut, txAdvice());
     }
 }

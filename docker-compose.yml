@@ -1,0 +1,21 @@
+version: "3"
+services:
+  nginx: bolgNginx
+    image: nginx:latest
+    ports:
+      - 9000:9000
+      volumes:
+      - /Mapper/nginx/html:/www/server/nginx/html
+      - /Mapper/nginx/conf/nginx.conf:/www/server/conf/nginx.conf
+      privileged: true #解决nginx的文件调用的权限问题
+  mysql:
+    image: mysql:5.7.27
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+  plumemo:
+    image: Mapper:latest
+    build: .
+    ports:
+      - 8086:8086
+    depends_on:
+      - mysql

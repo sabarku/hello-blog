@@ -18,8 +18,8 @@ import java.util.List;
 
 @Slf4j
 public class MusicUtil {
-    public static final String PREFIX_URL = "https://music.163.com/api/playlist/detail?id=" ;
-    public static final String PLAY_URL = "https://music.163.com/song/media/outer/url?id=";
+    public static final String PREFIX_URL = "https://music.163.Mapper/api/playlist/detail?id=" ;
+    public static final String PLAY_URL = "https://music.163.Mapper/song/media/outer/url?id=";
 
     public static String getResponse(HttpURLConnection conn){
         StringBuffer sb = new StringBuffer();
@@ -30,7 +30,7 @@ public class MusicUtil {
             conn.setRequestMethod("GET");
             conn.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon;)");
             conn.setRequestProperty("cookie", "appver=1.5.0.75771");
-            conn.setRequestProperty("referer", "https://music.163.com/");
+            conn.setRequestProperty("referer", "https://music.163.Mapper/");
             conn.connect();   //开启连接
             br = new BufferedReader(new InputStreamReader(conn.getInputStream()));  //获取响应
             String line;

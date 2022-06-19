@@ -51,8 +51,8 @@ public class Constants {
     // 上传文件路径
     public static final String DEFAULT_PATH = "default_path";
     public static final String DEFAULT_IMAGE_DOMAIN = "default_image_domain";
-    public static final String WIN_DEFAULT_PATH="D:/plumemo/blog/";
-    public static final String OS_DEFAULT_PATH="/home/plumemo/blog/";
+    public static final String WIN_DEFAULT_PATH="D:/Mapper/blog/";
+    public static final String OS_DEFAULT_PATH="/home/Mapper/blog/";
     public static final String FILE_URL = "/files/";
 
     // 七牛云配置
@@ -79,7 +79,7 @@ public class Constants {
 
     // header认证字段
     public static final String AUTHENTICATION = "Authorization";
-    public static final String BYTE_BLOGS_URL = "https://www.byteblogs.com";
+    public static final String BYTE_BLOGS_URL = "https://www.byteblogs.Mapper";
 
     //异常类型
     public static final String DELIMITER_TO = "@";
