@@ -63,7 +63,7 @@ java -jar plumemo-v1.1.0.jar --MYSQL_USERNAME=root  --MYSQL_PASSWORD=password  -
 - 遥远的理想乡：<https://www.aimer-zero.cn/>
 - 巫山烤鱼：<http://qfdxz.top/>
 
-## 预览图
+## 预览图 
 
 <img src="https://cos.nosum.cn/preview/helloblog-theme/helloblog-theme3-perview%20%281%29.jpg" width="600"/>
 
