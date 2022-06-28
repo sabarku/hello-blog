@@ -16,7 +16,7 @@
 
 >  由于项目是前后端完全分离，所以此项目为单独的后端项目，后台管理系统、博客主题可以进行自由搭配
 >
->> 后端API <https://github.com/byteblogs168/plumemo><br>
+>> 后端API <https://github.com/sabarku/hello-blog><br>
 >> 后端管理系统 <https://github.com/byteblogs168/plumemo-admin><br>
 >> 前端主题(theme-react-sakura)地址：<https://github.com/byteblogs168/theme-react-sakura/><br>
 >> 前端主题(theme-vue-bluesoul)地址：<https://github.com/byteblogs168/theme-vue-bluesoul/><br>
@@ -28,22 +28,20 @@
 window
 
 ```bash
-https://github.com/byteblogs168/plumemo/releases/download/v1.1.0/plumemo-v1.1.0.jar
+https://github.com/sabarku/hello-blog/releases/download/V1.2.0/hello-blog-v1.2.0.jar
 ```
 
 linux
 
 ```bash
-wget https://github.com/byteblogs168/plumemo/releases/download/v1.1.0/plumemo-v1.1.0.jar
+wget https://github.com/sabarku/hello-blog/releases/download/V1.2.0/hello-blog-v1.2.0.jar
 ```
 
 ### 启动 plumemo 
 
 ```bash
-java -jar plumemo-v1.1.0.jar --MYSQL_USERNAME=root  --MYSQL_PASSWORD=password  --MYSQL_DATABASE=jdbc:mysql://127.0.0.1:3306/helloblog?useSSL=false&characterEncoding=utf8 
+java -jar hello-blog-v1.2.0.jar --MYSQL_USERNAME=root  --MYSQL_PASSWORD=password  --MYSQL_DATABASE=jdbc:mysql://127.0.0.1:3306/helloblog?useSSL=false&characterEncoding=utf8 
 ```
-
-详细文档请移步：<https://www.plumemo.com/>
 
 ## 博客示例
 - 前端(theme-react-sakura)： <https://preview.plumemo.com/>。
@@ -52,16 +50,9 @@ java -jar plumemo-v1.1.0.jar --MYSQL_USERNAME=root  --MYSQL_PASSWORD=password  -
 - 演示站点：账号：preview_plumemo@163.com 密码：plumemo888
 
 ## 生态圈
-- 后端代码（plumemo）：<https://github.com/byteblogs168/plumemo>
-- 后端代码（plumemo-admin）：<https://github.com/byteblogs168/plumemo-admin>
+- 后端代码（hello-blog）：<https://github.com/sabarku/hello-blog>
+- 后台代码（plumemo-admin）：<https://github.com/byteblogs168/plumemo-admin>
 - 主题仓库：<https://github.com/byteblogs168/theme-react-sakura/> | <https://github.com/byteblogs168/theme-vue-bluesoul/>
-
-## 使用plumemo的优秀博主
-
-- 青涩知夏：<https://www.nosum.cn/>
-- 踏歌长行：<https://www.bygit.cn/>
-- 遥远的理想乡：<https://www.aimer-zero.cn/>
-- 巫山烤鱼：<http://qfdxz.top/>
 
 ## 预览图 
 
