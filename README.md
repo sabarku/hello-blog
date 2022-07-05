@@ -1,5 +1,9 @@
 <h1 align="center"><a href="https://github.com/sabarku/hello-blog" target="_blank">hello-blog</a></h1>
 
+<p align="center">
+	<img src="https://img.shields.io/badge/JDK-1.8-orange">
+</p>
+
 > [hello-blog]是一个轻量、易用、前后端分离的博客系统，为了解除开发人员对后端的束缚，真正做到的一个面向接口开发的博客系统，其借鉴了<a href="https://github.com/byteblogs168/plumemo" target="_blank">plumemo</a>。
 
 ------------------------------
