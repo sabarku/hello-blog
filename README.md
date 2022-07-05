@@ -79,4 +79,6 @@ java -jar hello-blog-v1.2.0.jar --MYSQL_USERNAME=root  --MYSQL_PASSWORD=password
 - 后台代码（plumemo-admin）：<https://github.com/sabarku/hello-blog-admin>
 - 主题仓库：<https://github.com/sabarku/theme-react-sakura/> 
 
+## 致谢
+项目开发过程主要基于<a href="https://github.com/byteblogs168/plumemo" target="_blank">plumemo</a>，感谢plumemo的相关文档教导。
 
